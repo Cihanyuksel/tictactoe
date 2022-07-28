@@ -29,8 +29,6 @@ const Tile = ({tileIndex, tiles, setTiles, turn, setTurn, players, checkWin, win
     checkWin()
   }, [tiles])
   
-
-
   return (
 
     <div>
@@ -44,5 +42,3 @@ const Tile = ({tileIndex, tiles, setTiles, turn, setTurn, players, checkWin, win
   )
 }
 export default Tile
-
-
