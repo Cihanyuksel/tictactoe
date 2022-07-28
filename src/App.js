@@ -24,22 +24,27 @@ function App() {
   const errorShow = () => {
       players.forEach(player=> {
 
-        if(player.name === 'NAME' || player.name === '' && player.name === '')  {
+        if (player.name === 'NAME' || player.name === '' )  {
+
           setErrMessage(true);
           setTileShow(false)
           
-        }else {
+        } else {
+
           setTileShow(true)
           tile()
+
         } 
       })
+
       setTimeout(()=>setErrMessage(false), 1500)
   }
  
   const tile = () => {
+
     players.forEach(player => {
-      if(player.name !== 'NAME' && player.name !== '') {
-        
+
+      if (player.name !== 'NAME' && player.name !== '') {
         <Tiles />
       }
     })

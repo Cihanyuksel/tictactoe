@@ -87,7 +87,6 @@ const squares = tiles;
       </>
     }
 
-
     Turn's : {turn}
 
       <div className='tile-header'>
@@ -113,4 +112,3 @@ const squares = tiles;
   )
 }
 export default Tiles
-

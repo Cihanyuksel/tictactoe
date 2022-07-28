@@ -31,5 +31,3 @@ function Player({ player, editName }) {
 }
 
 export default Player;
-
-// onClick={() => setShow(true)}

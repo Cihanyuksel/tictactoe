@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
 const Tile = ({tileIndex, tiles, setTiles, turn, setTurn, players, checkWin, winMessage, drawMessage}) => {
 
@@ -25,10 +25,8 @@ const Tile = ({tileIndex, tiles, setTiles, turn, setTurn, players, checkWin, win
     setTiles(cells)
   }
 
-  useEffect(()=> {
     checkWin()
-  }, [tiles])
-  
+    
   return (
 
     <div>
