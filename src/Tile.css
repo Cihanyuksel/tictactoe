@@ -1,0 +1,113 @@
+.tile-header {
+    max-width: 100%;
+    width: 25%;
+    height: auto;
+    /* margin: 0 auto; */
+    /* background-color:antiquewhite; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.wrong {
+  cursor: default !important;
+}
+
+.wrong:hover {
+  background-color: cornsilk !important;
+  
+}
+
+#tile-btn {
+  font-size: 2.4rem;
+}
+
+@media screen and (max-width: 1170px
+) {
+    .tile-header{
+      width: 30%;
+    }
+  }
+
+@media screen and (max-width: 970px
+) {
+    .tile-header{
+      width: 40%;
+    }
+  }
+
+ @media screen and (max-width: 670px
+) {
+      .tile-header{
+        width: 40%;
+      }
+    }
+
+@media screen and (max-width: 580px
+) {
+        .tile-header{
+          width: 60%;
+        }
+    } 
+
+@media screen and (max-width: 450px
+) {
+        .tile-header{
+            width: 80%;
+        }
+    }     
+
+
+.tile-0,
+.tile-1,
+.tile-2, 
+.tile-3,
+.tile-4,
+.tile-5,
+.tile-6,
+.tile-7,
+.tile-8
+{
+    width: 5.5rem;
+    height: 5.5rem;
+    border: 1px solid #000;
+    margin-top: 3rem;
+    margin: .2rem;
+    background-color:cornsilk;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.tile-0,
+.tile-1,
+.tile-2 {
+    margin-top: 2rem;
+}
+
+.tile-6,
+.tile-7,
+.tile-8 {
+    margin-bottom: 2rem;
+}
+
+.tile-0:hover,
+.tile-1:hover,
+.tile-2:hover,
+.tile-3:hover,
+.tile-4:hover,
+.tile-5:hover,
+.tile-6:hover,
+.tile-7:hover,
+.tile-8:hover {
+    background-color: rgb(247, 241, 175);
+
+}
